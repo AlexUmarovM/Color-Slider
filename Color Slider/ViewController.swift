@@ -10,20 +10,15 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    //Color View Outlet
+    // Color View Outlet
     @IBOutlet var colorView: UIView!
     
-    //Color Label Outlet
-    @IBOutlet var redLabel: UILabel!
-    @IBOutlet var greenLabel: UILabel!
-    @IBOutlet var blueLabel: UILabel!
-    
-    //Color Value Outlet
+    // Color Value Outlet
     @IBOutlet var redValue: UILabel!
     @IBOutlet var greenValue: UILabel!
     @IBOutlet var blueValue: UILabel!
     
-    //Sliders Outlet
+    // Sliders Outlet
     @IBOutlet var redSlider: UISlider!
     @IBOutlet var greenSlider: UISlider!
     @IBOutlet var blueSlider: UISlider!
@@ -34,19 +29,30 @@ class ViewController: UIViewController {
         redValue.text = String(redSlider.value)
         greenValue.text = String(greenSlider.value)
         blueValue.text = String(blueSlider.value)
+        colorView.layer.cornerRadius = 10
     }
    
+    func changingColor () {
+       colorView.backgroundColor = UIColor(displayP3Red: CGFloat(redSlider.value),
+                                           green: CGFloat(greenSlider.value),
+                                           blue: CGFloat(blueSlider.value), alpha: 1)
+   }
+    
     //Color Value Action
+    
     @IBAction func redSliderAction() {
         redValue.text = String(format: "%.2f", redSlider.value)
+        changingColor()
     }
     
     @IBAction func greenSliderAction() {
         greenValue.text = String(format: "%.2f", greenSlider.value)
+        changingColor()
     }
     
     @IBAction func blueSliderAction() {
         blueValue.text = String(format: "%.2f", blueSlider.value)
+        changingColor()
     }
     
 }
