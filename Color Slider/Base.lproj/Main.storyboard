@@ -58,13 +58,16 @@
                                                         <rect key="frame" x="0.0" y="0.0" width="235" height="20.5"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hiA-oB-2wp">
-                                                                <rect key="frame" x="0.0" y="0.0" width="10.5" height="20.5"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="36" height="20.5"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="width" constant="36" id="Yqv-Qp-9Cv"/>
+                                                                </constraints>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                 <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.01" minValue="0.01" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="8gg-VM-cWV">
-                                                                <rect key="frame" x="32.5" y="0.0" width="204.5" height="21.5"/>
+                                                                <rect key="frame" x="58" y="0.0" width="179" height="21.5"/>
                                                                 <color key="minimumTrackTintColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 <connections>
                                                                     <action selector="redSliderAction" destination="BYZ-38-t0r" eventType="valueChanged" id="0IF-7J-ldu"/>
@@ -76,13 +79,16 @@
                                                         <rect key="frame" x="0.0" y="38.5" width="235" height="20.5"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p5I-Gx-G0B">
-                                                                <rect key="frame" x="0.0" y="0.0" width="10.5" height="20.5"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="36" height="20.5"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="width" constant="36" id="Is8-HC-U7e"/>
+                                                                </constraints>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                 <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.01" minValue="0.01" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="FH6-V0-jNn">
-                                                                <rect key="frame" x="32.5" y="0.0" width="204.5" height="21.5"/>
+                                                                <rect key="frame" x="58" y="0.0" width="179" height="21.5"/>
                                                                 <color key="minimumTrackTintColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 <connections>
                                                                     <action selector="greenSliderAction" destination="BYZ-38-t0r" eventType="valueChanged" id="LLe-kq-PCr"/>
@@ -94,13 +100,16 @@
                                                         <rect key="frame" x="0.0" y="77" width="235" height="20.5"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KZo-hR-Gge">
-                                                                <rect key="frame" x="0.0" y="0.0" width="10.5" height="20.5"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="36" height="20.5"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="width" constant="36" id="q0v-bp-MyP"/>
+                                                                </constraints>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                 <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.01" minValue="0.01" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="Jam-Tc-5IK">
-                                                                <rect key="frame" x="32.5" y="0.0" width="204.5" height="21.5"/>
+                                                                <rect key="frame" x="58" y="0.0" width="179" height="21.5"/>
                                                                 <color key="minimumTrackTintColor" systemColor="linkColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 <connections>
                                                                     <action selector="blueSliderAction" destination="BYZ-38-t0r" eventType="valueChanged" id="IPS-Cw-zpk"/>
