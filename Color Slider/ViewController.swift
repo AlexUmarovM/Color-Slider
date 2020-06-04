@@ -31,29 +31,24 @@ class ViewController: UIViewController {
         blueValue.text = String(blueSlider.value)
         colorView.layer.cornerRadius = 10
     }
-   
+    
     func changingColor () {
-       colorView.backgroundColor = UIColor(displayP3Red: CGFloat(redSlider.value),
-                                           green: CGFloat(greenSlider.value),
-                                           blue: CGFloat(blueSlider.value), alpha: 1)
-   }
+        colorView.backgroundColor = UIColor(
+            displayP3Red: CGFloat(redSlider.value),
+            green: CGFloat(greenSlider.value),
+            blue: CGFloat(blueSlider.value),
+            alpha: 1)
+    }
     
     //Color Value Action
     
-    @IBAction func redSliderAction() {
+    @IBAction func sliderAction() {
         redValue.text = String(format: "%.2f", redSlider.value)
-        changingColor()
-    }
-    
-    @IBAction func greenSliderAction() {
         greenValue.text = String(format: "%.2f", greenSlider.value)
-        changingColor()
-    }
-    
-    @IBAction func blueSliderAction() {
         blueValue.text = String(format: "%.2f", blueSlider.value)
         changingColor()
     }
+
     
 }
 
