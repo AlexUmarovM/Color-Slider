@@ -29,12 +29,19 @@ class ViewController: UIViewController {
         redValue.text = String(redSlider.value)
         greenValue.text = String(greenSlider.value)
         blueValue.text = String(blueSlider.value)
+        
+         colorView.backgroundColor = UIColor(
+            red: CGFloat(redSlider.value),
+            green: CGFloat(greenSlider.value),
+            blue: CGFloat(blueSlider.value),
+            alpha: 1)
+        
         colorView.layer.cornerRadius = 10
     }
     
     func changingColor () {
         colorView.backgroundColor = UIColor(
-            displayP3Red: CGFloat(redSlider.value),
+            red: CGFloat(redSlider.value),
             green: CGFloat(greenSlider.value),
             blue: CGFloat(blueSlider.value),
             alpha: 1)

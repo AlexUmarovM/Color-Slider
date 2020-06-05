@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA13308A248ACB6D0036113C /* MainBackGroundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA133089248ACB6D0036113C /* MainBackGroundViewController.swift */; };
 		FAF79F8A2477CFF0005EEFCD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF79F892477CFF0005EEFCD /* AppDelegate.swift */; };
 		FAF79F8C2477CFF0005EEFCD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF79F8B2477CFF0005EEFCD /* SceneDelegate.swift */; };
 		FAF79F8E2477CFF0005EEFCD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF79F8D2477CFF0005EEFCD /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FA133089248ACB6D0036113C /* MainBackGroundViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainBackGroundViewController.swift; sourceTree = "<group>"; };
 		FAF79F862477CFF0005EEFCD /* Color Slider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Color Slider.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAF79F892477CFF0005EEFCD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FAF79F8B2477CFF0005EEFCD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 		FAF79F882477CFF0005EEFCD /* Color Slider */ = {
 			isa = PBXGroup;
 			children = (
+				FA133089248ACB6D0036113C /* MainBackGroundViewController.swift */,
 				FAF79F892477CFF0005EEFCD /* AppDelegate.swift */,
 				FAF79F8B2477CFF0005EEFCD /* SceneDelegate.swift */,
 				FAF79F8D2477CFF0005EEFCD /* ViewController.swift */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAF79F8E2477CFF0005EEFCD /* ViewController.swift in Sources */,
+				FA13308A248ACB6D0036113C /* MainBackGroundViewController.swift in Sources */,
 				FAF79F8A2477CFF0005EEFCD /* AppDelegate.swift in Sources */,
 				FAF79F8C2477CFF0005EEFCD /* SceneDelegate.swift in Sources */,
 			);
