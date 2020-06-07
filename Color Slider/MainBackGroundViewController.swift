@@ -9,22 +9,43 @@
 import UIKit
 
 class MainBackGroundViewController: UIViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
-    }
+    @IBOutlet var colorSetButton: UIBarButtonItem!
+    var red: CGFloat!
+    var green: CGFloat!
+    var blue: CGFloat!
     
 
-    /*
-    // MARK: - Navigation
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?){
+        if let colorSetVC = segue.destination as? ColorSetViewController {
+                colorSetVC.deligate = self
+            colorSetVC.color = self.view.backgroundColor
+        }
+        }
+    
+    
+    
 
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    @IBAction func setColor(_ sender: Any) {
+        
     }
-    */
+
+}
+
+extension MainBackGroundViewController: SetColorViewControllerDelegate {
+    func changeColor(redValue: CGFloat,
+                     greenValue: CGFloat,
+                     blueValue: CGFloat,
+                     alphaValue: CGFloat) {
+        
+        view.backgroundColor = UIColor(red: redValue,
+                                       green: greenValue,
+                                       blue: blueValue,
+                                       alpha: alphaValue)
+        
+        red = redValue
+        green = greenValue
+        blue = blueValue
+        
+    }
 
 }

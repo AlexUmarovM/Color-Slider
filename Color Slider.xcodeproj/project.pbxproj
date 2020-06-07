@@ -10,7 +10,7 @@
 		FA13308A248ACB6D0036113C /* MainBackGroundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA133089248ACB6D0036113C /* MainBackGroundViewController.swift */; };
 		FAF79F8A2477CFF0005EEFCD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF79F892477CFF0005EEFCD /* AppDelegate.swift */; };
 		FAF79F8C2477CFF0005EEFCD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF79F8B2477CFF0005EEFCD /* SceneDelegate.swift */; };
-		FAF79F8E2477CFF0005EEFCD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF79F8D2477CFF0005EEFCD /* ViewController.swift */; };
+		FAF79F8E2477CFF0005EEFCD /* ColorSetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF79F8D2477CFF0005EEFCD /* ColorSetViewController.swift */; };
 		FAF79F912477CFF0005EEFCD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAF79F8F2477CFF0005EEFCD /* Main.storyboard */; };
 		FAF79F932477CFF1005EEFCD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAF79F922477CFF1005EEFCD /* Assets.xcassets */; };
 		FAF79F962477CFF1005EEFCD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAF79F942477CFF1005EEFCD /* LaunchScreen.storyboard */; };
@@ -21,7 +21,7 @@
 		FAF79F862477CFF0005EEFCD /* Color Slider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Color Slider.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAF79F892477CFF0005EEFCD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FAF79F8B2477CFF0005EEFCD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FAF79F8D2477CFF0005EEFCD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FAF79F8D2477CFF0005EEFCD /* ColorSetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorSetViewController.swift; sourceTree = "<group>"; };
 		FAF79F902477CFF0005EEFCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FAF79F922477CFF1005EEFCD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAF79F952477CFF1005EEFCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -61,7 +61,7 @@
 				FA133089248ACB6D0036113C /* MainBackGroundViewController.swift */,
 				FAF79F892477CFF0005EEFCD /* AppDelegate.swift */,
 				FAF79F8B2477CFF0005EEFCD /* SceneDelegate.swift */,
-				FAF79F8D2477CFF0005EEFCD /* ViewController.swift */,
+				FAF79F8D2477CFF0005EEFCD /* ColorSetViewController.swift */,
 				FAF79F8F2477CFF0005EEFCD /* Main.storyboard */,
 				FAF79F922477CFF1005EEFCD /* Assets.xcassets */,
 				FAF79F942477CFF1005EEFCD /* LaunchScreen.storyboard */,
@@ -141,7 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAF79F8E2477CFF0005EEFCD /* ViewController.swift in Sources */,
+				FAF79F8E2477CFF0005EEFCD /* ColorSetViewController.swift in Sources */,
 				FA13308A248ACB6D0036113C /* MainBackGroundViewController.swift in Sources */,
 				FAF79F8A2477CFF0005EEFCD /* AppDelegate.swift in Sources */,
 				FAF79F8C2477CFF0005EEFCD /* SceneDelegate.swift in Sources */,
